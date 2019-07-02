@@ -1,0 +1,78 @@
+body{
+	padding:0px;
+	background-image:url(donate-5.jpg);
+	background-position:leftwards;
+	background-size:200px 200px;
+}
+*
+{
+	margin:0px;
+    padding:0px;	
+}
+.header{
+	width:45%;
+	margin: 50px auto 0px;
+	color: white;
+	background: radial-gradient(black,grey);
+	text-align: center;
+	border: 1px solid black;
+	border-bottom:none;
+	border-radius: 10px 10px 0px 0px;
+	padding:20px;
+}
+form
+{
+	width:45%;
+	margin:0px auto;
+	padding: 20px;
+	border:1px solid black;
+	background:white;
+	border-radius: 0px 0px 10px 10px;
+}
+.form-create{
+	margin: 10px 0px 10px 0px;
+}
+.form-create label{
+	display:block;
+	text-align: left;
+	margin: 3px;
+}
+.form-create input{
+	height: 30px;
+	width: 80%;
+	padding:5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border:1px solid black;
+}
+.form-create textarea{
+	border:1px solid black;
+	border-radius: 5px;
+	width:80%;
+	font-size:16px;
+}
+button{
+	padding:10px;
+	font-size: 15px;
+	color:black;
+	background-color:grey;
+	border:none;
+	border-radius:10px;
+}
+.error {
+	width:92%;
+	margin: 0px auto;
+	padding: 10px;
+	border: 1px solid #a94442;
+	color : #a94442;
+	background: #f2dede;
+	border-radius: 5px;
+	text-align: left;
+}
+.success{
+	color: black;
+	background: green;
+	border:1px solid blue;
+	margin-bottom:20px;
+}
+	
